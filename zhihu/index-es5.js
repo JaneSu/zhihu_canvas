@@ -82,7 +82,7 @@ function init(num) {
     draw()
 }
 
-window.addEventListener('load',init(100))
+window.addEventListener('load',init(30))
 
 window.addEventListener('mousemove',function(e){
     e = e || window.event;
